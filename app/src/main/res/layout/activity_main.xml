@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_margin="20dp"
+        android:textColor="#E91E63"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:id="@+id/textViewx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+
+    <TextView
+        android:layout_margin="16dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/sd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NONE upper bound: " />
+
+    <EditText
+        android:layout_margin="8dp"
+        android:id="@+id/noneThreshold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="" />
+
+    <TextView
+        android:layout_margin="16dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/sd1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOW upper bound: " />
+
+    <EditText
+        android:layout_margin="8dp"
+        android:id="@+id/lowThreshold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="" />
+
+    <TextView
+        android:layout_margin="16dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/sd2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MEDIUM upper bound:" />
+
+    <EditText
+        android:layout_margin="8dp"
+        android:id="@+id/mediumThredhold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="" />
+
+
+    <Button
+        android:layout_margin="16dp"
+        android:onClick="onclick"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change" />
+
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="366dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="save Data" />
+
+    <TextView
+        android:layout_margin="20dp"
+        android:textColor="#E91E63"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:id="@+id/textViewx2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+</LinearLayout>
+</ScrollView>
